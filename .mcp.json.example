@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "academic-search": {
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "/absolute/path/to/academic-search-mcp",
+        "server.py"
+      ],
+      "env": {
+        "SEMANTIC_SCHOLAR_API_KEY": "YOUR_API_KEY_HERE"
+      }
+    },
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest",
+        "--headless"
+      ]
+    }
+  }
+}
