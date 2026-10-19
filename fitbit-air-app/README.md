@@ -76,8 +76,15 @@ npm start          # statischer Server auf http://localhost:8080 (Python 3)
 npm test           # Tests der Berechnungen und der Datenumwandlung (Node ≥ 20)
 ```
 
-Auf dem Handy: die App über HTTPS hosten (z. B. GitHub Pages, Netlify), die Domain als JavaScript-Quelle in der
-OAuth-Client-ID eintragen und im Browser „Zum Startbildschirm hinzufügen“ wählen.
+### Auf dem iPhone
+
+1. Den Ordner `fitbit-air-app/` über **HTTPS** hosten, z. B. mit GitHub Pages oder Netlify.
+   Google erlaubt die Anmeldung nur über HTTPS (Ausnahme: `localhost`).
+2. Die Adresse (z. B. `https://<name>.github.io`) in der OAuth-Client-ID unter
+   *Autorisierte JavaScript-Quellen* eintragen.
+3. Die Adresse in **Safari** öffnen, dann **Teilen → Zum Home-Bildschirm**.
+4. Die App immer über das Symbol auf dem Home-Bildschirm starten. Nur dort bleiben die lokal
+   gespeicherten Daten dauerhaft erhalten; Safari-Tabs löscht iOS nach längerer Nichtnutzung.
 
 ## Aufbau
 

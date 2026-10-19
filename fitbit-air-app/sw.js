@@ -1,7 +1,7 @@
 // Offline-Cache für die App-Dateien. API-Aufrufe werden nie gecacht.
-const CACHE = "air-recovery-v1";
+const CACHE = "air-recovery-v2";
 const ASSETS = [
-  "./", "index.html", "styles.css", "manifest.webmanifest", "icon.svg",
+  "./", "index.html", "styles.css", "manifest.webmanifest", "icon.svg", "icon-180.png", "icon-512.png",
   "js/main.js", "js/config.js", "js/scoring.js", "js/normalize.js", "js/api.js",
   "js/auth.js", "js/store.js", "js/charts.js", "js/demo.js",
 ];
